@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { Navigate } from 'react-router-dom';
+import { getImageUrl } from '../utils/getImageUrl';
 
 interface Movie { // interface เอาไว้กำหนดรูปแบบข้อมูลของ Movie
   id: number;
@@ -300,7 +301,7 @@ const AdminDashboard: React.FC = () => {
                 movies.map((movie) => (
                   <div key={movie.id} className="flex gap-3 p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                     <img 
-                      src={movie.imageUrl} 
+                      src={getImageUrl(movie.imageUrl)} 
                       alt={movie.title}
                       className="w-16 h-24 object-cover rounded"
                     />

@@ -6,6 +6,7 @@ import { BsFillPlayFill, BsPlusLg, BsCheckLg } from 'react-icons/bs';
 import ReactPlayer from 'react-player';
 import { useMyList } from '../context/MyListContext';
 import { useAuth } from '../context/AuthContext';
+import { getImageUrl } from '../utils/getImageUrl';
 
 export const Detail: React.FC = () => {
   const { id } = useParams<{ id: string }>(); // ดึง id จาก URL เช่น /details/movie/5 จะได้ id = "5"
@@ -83,7 +84,7 @@ export const Detail: React.FC = () => {
           />
         ) : ( // ถ้าไม่มี trailer ให้แสดงรูปแทน
           <img 
-            src={media.imageUrl} 
+            src={getImageUrl(media.imageUrl)} 
             alt={media.title} 
             className="w-full h-full object-cover" 
           />
