@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
       <div className="w-full flex items-center justify-between md:justify-start md:space-x-8 px-4">
         <Link to="/" onClick={handleLinkClick} className="flex items-center bg-transparent border-none cursor-pointer">
           <div className="h-16 aspect-[2.5/1] rounded-lg flex items-center justify-center overflow-hidden">
-            <img src={getImageUrl('logo/logo.png')} alt="Logo" className="h-full w-full object-cover scale-110" />
+            <img src={getImageUrl("logo.png")}  alt="Logo" className="h-full w-full object-cover scale-110" />
           </div>
         </Link>
 
