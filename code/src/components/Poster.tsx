@@ -4,6 +4,7 @@ import { BsFillPlayFill, BsPlusLg, BsCheckLg, BsChevronDown } from 'react-icons/
 import type { Media } from '../types/types';
 import { useMyList } from '../context/MyListContext';
 import { useAuth } from '../context/AuthContext';
+import { getImageUrl } from '../utils/getImageUrl';
 
 interface PosterProps {
   media: Media;
@@ -64,7 +65,7 @@ const Poster: React.FC<PosterProps> = ({ media }) => { // ดึงข้อม�
     >
       <Link to={detailUrl} className="block w-full h-full rounded-lg overflow-hidden shadow-md relative"> 
         <img //รูปหนัง
-          src={imageUrl} 
+          src={getImageUrl(imageUrl)} 
           alt={title} 
           className="w-full h-full object-cover rounded-lg"
         />
