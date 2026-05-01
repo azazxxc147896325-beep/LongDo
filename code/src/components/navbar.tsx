@@ -5,6 +5,7 @@ import { BsPersonCircle, BsBoxArrowRight, BsChevronDown } from 'react-icons/bs';
 import { getImageUrl } from '../utils/getImageUrl';
 
 const Navbar: React.FC = () => {
+  console.log(getImageUrl("logo.png"));
   const [open, setOpen] = useState(false); // เก็บสถานะเมนูของมือถือ
   const location = useLocation(); // เก็บ path ปัจจุบัน
   const navigate = useNavigate(); // ใช้เปลี่ยนหน้า
