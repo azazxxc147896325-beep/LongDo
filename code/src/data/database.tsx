@@ -4,7 +4,7 @@ const db: Media[] = [
   // Movies (id 1-999)
   {
     id: 1,
-    imageUrl: "/poster/moive/Action/avengers-endgame.jpg",
+    imageUrl: "/poster/movie/Action/avengers-endgame.jpg",
     title: "Avengers: Endgame",
     rating: "13+",
     episodes: "3h 1m",
@@ -16,7 +16,7 @@ const db: Media[] = [
   },
   {
     id: 2,
-    imageUrl: "/poster/moive/Action/john-wick.jpg",
+    imageUrl: "/poster/movie/Action/john-wick.jpg",
     title: "John Wick",
     rating: "18+",
     episodes: "1h 41m",
@@ -28,7 +28,7 @@ const db: Media[] = [
   },
   {
     id: 3,
-    imageUrl: "/poster/moive/Action/die-hard.jpg",
+    imageUrl: "/poster/movie/Action/die-hard.jpg",
     title: "Die Hard",
     rating: "18+",
     episodes: "2h 12m",
@@ -40,7 +40,7 @@ const db: Media[] = [
   },
   {
     id: 4,
-    imageUrl: "/poster/moive/Action/knight-rider-2000.jpg",
+    imageUrl: "/poster/movie/Action/knight-rider-2000.jpg",
     title: "Knight Rider 2000",
     rating: "18+",
     episodes: "1h 31m",
@@ -52,7 +52,7 @@ const db: Media[] = [
   },
   {
     id: 5,
-    imageUrl: "/poster/moive/Action/mad-max-fury-road.jpg",
+    imageUrl: "/poster/movie/Action/mad-max-fury-road.jpg",
     title: "Mad Max: Fury Road",
     rating: "18+",
     episodes: "120 min",
@@ -64,7 +64,7 @@ const db: Media[] = [
   },
   {
     id: 6,
-    imageUrl: "/poster/moive/Action/mission-impossible-fallout.jpg",
+    imageUrl: "/poster/movie/Action/mission-impossible-fallout.jpg",
     title: "Mission: Impossible - Fallout",
     rating: "13+",
     episodes: "147 min",
@@ -76,7 +76,7 @@ const db: Media[] = [
   },
   {
     id: 7,
-    imageUrl: "/poster/moive/Action/serbuan-maut.jpg",
+    imageUrl: "/poster/movie/Action/serbuan-maut.jpg",
     title: "The Raid: Redemption",
     rating: "18+",
     episodes: "101 min",
@@ -88,7 +88,7 @@ const db: Media[] = [
   },
   {
     id: 8,
-    imageUrl: "/poster/moive/Action/terminator-2-judgment-day.jpg",
+    imageUrl: "/poster/movie/Action/terminator-2-judgment-day.jpg",
     title: "Terminator 2: Judgment Day",
     rating: "18+",
     episodes: "137 min",
@@ -100,7 +100,7 @@ const db: Media[] = [
   },
   {
     id: 9,
-    imageUrl: "/poster/moive/Action/the-dark-knight.jpg",
+    imageUrl: "/poster/movie/Action/the-dark-knight.jpg",
     title: "The Dark Knight",
     rating: "13+",
     episodes: "152 min",
@@ -112,7 +112,7 @@ const db: Media[] = [
   },
   {
     id: 10,
-    imageUrl: "/poster/moive/Action/the-matrix.jpg",
+    imageUrl: "/poster/movie/Action/the-matrix.jpg",
     title: "The Matrix",
     rating: "18+",
     episodes: "136 min",
@@ -124,7 +124,7 @@ const db: Media[] = [
   },
   {
     id: 11,
-    imageUrl: "/poster/moive/Action/top-gun-maverick.jpg",
+    imageUrl: "/poster/movie/Action/top-gun-maverick.jpg",
     title: "Top Gun: Maverick",
     rating: "13+",
     episodes: "131 min",
@@ -136,7 +136,7 @@ const db: Media[] = [
   },
   {
     id: 12,
-    imageUrl: "/poster/moive/Comedy/airplane.jpg",
+    imageUrl: "/poster/movie/Comedy/airplane.jpg",
     title: "Airplane!",
     rating: "7+",
     episodes: "88 min",
@@ -148,7 +148,7 @@ const db: Media[] = [
   },
   {
     id: 13,
-    imageUrl: "/poster/moive/Comedy/bridesmaids.jpg",
+    imageUrl: "/poster/movie/Comedy/bridesmaids.jpg",
     title: "Bridesmaids",
     rating: "18+",
     episodes: "125 min",
@@ -160,7 +160,7 @@ const db: Media[] = [
   },
   {
     id: 14,
-    imageUrl: "/poster/moive/Comedy/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb.jpg",
+    imageUrl: "/poster/movie/Comedy/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb.jpg",
     title: "Dr. Strangelove",
     rating: "7+",
     episodes: "95 min",
@@ -172,7 +172,7 @@ const db: Media[] = [
   },
   {
     id: 15,
-    imageUrl: "/poster/moive/Comedy/groundhog-day.jpg",
+    imageUrl: "/poster/movie/Comedy/groundhog-day.jpg",
     title: "Groundhog Day",
     rating: "7+",
     episodes: "101 min",
@@ -184,7 +184,7 @@ const db: Media[] = [
   },
   {
     id: 16,
-    imageUrl: "/poster/moive/Comedy/happy-gilmore.jpg",
+    imageUrl: "/poster/movie/Comedy/happy-gilmore.jpg",
     title: "Happy Gilmore",
     rating: "13+",
     episodes: "92 min",
@@ -196,7 +196,7 @@ const db: Media[] = [
   },
   {
     id: 17,
-    imageUrl: "/poster/moive/Comedy/monty-python-and-the-holy-grail.jpg",
+    imageUrl: "/poster/movie/Comedy/monty-python-and-the-holy-grail.jpg",
     title: "Monty Python and the Holy Grail",
     rating: "7+",
     episodes: "91 min",
@@ -208,7 +208,7 @@ const db: Media[] = [
   },
   {
     id: 18,
-    imageUrl: "/poster/moive/Comedy/office-space.jpg",
+    imageUrl: "/poster/movie/Comedy/office-space.jpg",
     title: "Office Space",
     rating: "18+",
     episodes: "89 min",
@@ -220,7 +220,7 @@ const db: Media[] = [
   },
   {
     id: 19,
-    imageUrl: "/poster/moive/Comedy/shaun-of-the-dead.jpg",
+    imageUrl: "/poster/movie/Comedy/shaun-of-the-dead.jpg",
     title: "Shaun of the Dead",
     rating: "18+",
     episodes: "99 min",
@@ -232,7 +232,7 @@ const db: Media[] = [
   },
   {
     id: 20,
-    imageUrl: "/poster/moive/Comedy/the-big-lebowski.jpg",
+    imageUrl: "/poster/movie/Comedy/the-big-lebowski.jpg",
     title: "The Big Lebowski",
     rating: "18+",
     episodes: "117 min",
@@ -244,7 +244,7 @@ const db: Media[] = [
   },
   {
     id: 21,
-    imageUrl: "/poster/moive/Comedy/the-naked-gun-from-the-files-of-police-squad.jpg",
+    imageUrl: "/poster/movie/Comedy/the-naked-gun-from-the-files-of-police-squad.jpg",
     title: "The Naked Gun: From the Files of Police Squad!",
     rating: "13+",
     episodes: "85 min",
@@ -256,7 +256,7 @@ const db: Media[] = [
   },
   {
     id: 22,
-    imageUrl: "/poster/moive/Comedy/the-notebook.jpg",
+    imageUrl: "/poster/movie/Comedy/the-notebook.jpg",
     title: "The Notebook",
     rating: "13+",
     episodes: "123 min",
@@ -268,7 +268,7 @@ const db: Media[] = [
   },
   {
     id: 23,
-    imageUrl: "/poster/moive/Comedy/when-harry-met-sally.jpg",
+    imageUrl: "/poster/movie/Comedy/when-harry-met-sally.jpg",
     title: "When Harry Met Sally...",
     rating: "18+",
     episodes: "96 min",
@@ -280,7 +280,7 @@ const db: Media[] = [
   },
   {
     id: 24,
-    imageUrl: "/poster/moive/Drama/12-angry-men.jpg",
+    imageUrl: "/poster/movie/Drama/12-angry-men.jpg",
     title: "12 Angry Men",
     rating: "7+",
     episodes: "96 min",
@@ -292,7 +292,7 @@ const db: Media[] = [
   },
   {
     id: 25,
-    imageUrl: "/poster/moive/Drama/citizen-kane.jpg",
+    imageUrl: "/poster/movie/Drama/citizen-kane.jpg",
     title: "Citizen Kane",
     rating: "7+",
     episodes: "119 min",
@@ -304,7 +304,7 @@ const db: Media[] = [
   },
   {
     id: 26,
-    imageUrl: "/poster/moive/Drama/do-the-right-thing.jpg",
+    imageUrl: "/poster/movie/Drama/do-the-right-thing.jpg",
     title: "Do the Right Thing",
     rating: "18+",
     episodes: "120 min",
@@ -316,7 +316,7 @@ const db: Media[] = [
   },
   {
     id: 27,
-    imageUrl: "/poster/moive/Drama/it-s-a-wonderful-life.jpg",
+    imageUrl: "/poster/movie/Drama/it-s-a-wonderful-life.jpg",
     title: "It's a Wonderful Life",
     rating: "7+",
     episodes: "130 min",
@@ -328,7 +328,7 @@ const db: Media[] = [
   },
   {
     id: 28,
-    imageUrl: "/poster/moive/Drama/mishima-a-life-in-four-chapters.jpg",
+    imageUrl: "/poster/movie/Drama/mishima-a-life-in-four-chapters.jpg",
     title: "Mishima: A Life in Four Chapters",
     rating: "18+",
     episodes: "120 min",
@@ -340,7 +340,7 @@ const db: Media[] = [
   },
   {
     id: 29,
-    imageUrl: "/poster/moive/Drama/Parasite.jpg",
+    imageUrl: "/poster/movie/Drama/Parasite.jpg",
     title: "Parasite",
     rating: "18+",
     episodes: "132 min",
@@ -352,7 +352,7 @@ const db: Media[] = [
   },
   {
     id: 30,
-    imageUrl: "/poster/moive/Drama/scener-ur-ett-aktenskap.jpg",
+    imageUrl: "/poster/movie/Drama/scener-ur-ett-aktenskap.jpg",
     title: "Scenes from a Marriage",
     rating: "13+",
     episodes: "169 min",
@@ -364,7 +364,7 @@ const db: Media[] = [
   },
   {
     id: 31,
-    imageUrl: "/poster/moive/Drama/the-best-years-of-our-lives.jpg",
+    imageUrl: "/poster/movie/Drama/the-best-years-of-our-lives.jpg",
     title: "The Best Years of Our Lives",
     rating: "7+",
     episodes: "170 min",
@@ -376,7 +376,7 @@ const db: Media[] = [
   },
   {
     id: 32,
-    imageUrl: "/poster/moive/Drama/the-godfather.jpg",
+    imageUrl: "/poster/movie/Drama/the-godfather.jpg",
     title: "The Godfather",
     rating: "18+",
     episodes: "175 min",
@@ -388,7 +388,7 @@ const db: Media[] = [
   },
   {
     id: 33,
-    imageUrl: "/poster/moive/Drama/the-shawshank-redemption.jpg",
+    imageUrl: "/poster/movie/Drama/the-shawshank-redemption.jpg",
     title: "The Shawshank Redemption",
     rating: "18+",
     episodes: "142 min",
@@ -400,7 +400,7 @@ const db: Media[] = [
   },
   {
     id: 34,
-    imageUrl: "/poster/moive/Drama/undead-or-alive-a-zombedy.jpg",
+    imageUrl: "/poster/movie/Drama/undead-or-alive-a-zombedy.jpg",
     title: "Undead or Alive: A Zombedy",
     rating: "13+",
     episodes: "91 min",
@@ -412,7 +412,7 @@ const db: Media[] = [
   },
   {
     id: 35,
-    imageUrl: "/poster/moive/Drama/whiplash.jpg",
+    imageUrl: "/poster/movie/Drama/whiplash.jpg",
     title: "Whiplash",
     rating: "18+",
     episodes: "107 min",
@@ -424,7 +424,7 @@ const db: Media[] = [
   },
   {
     id: 36,
-    imageUrl: "/poster/moive/Horror/28-days-later.jpg",
+    imageUrl: "/poster/movie/Horror/28-days-later.jpg",
     title: "28 Days Later",
     rating: "18+",
     episodes: "113 min",
@@ -436,7 +436,7 @@ const db: Media[] = [
   },
   {
     id: 37,
-    imageUrl: "/poster/moive/Horror/evil-dead-ii.jpg",
+    imageUrl: "/poster/movie/Horror/evil-dead-ii.jpg",
     title: "Evil Dead II",
     rating: "18+",
     episodes: "84 min",
@@ -448,7 +448,7 @@ const db: Media[] = [
   },
   {
     id: 38,
-    imageUrl: "/poster/moive/Horror/get-out.jpg",
+    imageUrl: "/poster/movie/Horror/get-out.jpg",
     title: "Get Out",
     rating: "18+",
     episodes: "104 min",
@@ -460,7 +460,7 @@ const db: Media[] = [
   },
   {
     id: 39,
-    imageUrl: "/poster/moive/Horror/halloween.jpg",
+    imageUrl: "/poster/movie/Horror/halloween.jpg",
     title: "Halloween",
     rating: "18+",
     episodes: "91 min",
@@ -472,7 +472,7 @@ const db: Media[] = [
   },
   {
     id: 40,
-    imageUrl: "/poster/moive/Horror/jaws.jpg",
+    imageUrl: "/poster/movie/Horror/jaws.jpg",
     title: "Jaws",
     rating: "13+",
     episodes: "124 min",
@@ -484,7 +484,7 @@ const db: Media[] = [
   },
   {
     id: 41,
-    imageUrl: "/poster/moive/Horror/Let the Right One In.jpg",
+    imageUrl: "/poster/movie/Horror/Let the Right One In.jpg",
     title: "Let the Right One In",
     rating: "18+",
     episodes: "114 min",
@@ -496,7 +496,7 @@ const db: Media[] = [
   },
   {
     id: 42,
-    imageUrl: "/poster/moive/Horror/psycho.jpg",
+    imageUrl: "/poster/movie/Horror/psycho.jpg",
     title: "Psycho",
     rating: "18+",
     episodes: "109 min",
@@ -508,7 +508,7 @@ const db: Media[] = [
   },
   {
     id: 43,
-    imageUrl: "/poster/moive/Horror/rosemary-s-baby.jpg",
+    imageUrl: "/poster/movie/Horror/rosemary-s-baby.jpg",
     title: "Rosemary's Baby",
     rating: "18+",
     episodes: "137 min",
@@ -520,7 +520,7 @@ const db: Media[] = [
   },
   {
     id: 44,
-    imageUrl: "/poster/moive/Horror/the-conjuring.jpg",
+    imageUrl: "/poster/movie/Horror/the-conjuring.jpg",
     title: "The Conjuring",
     rating: "18+",
     episodes: "112 min",
@@ -532,7 +532,7 @@ const db: Media[] = [
   },
   {
     id: 45,
-    imageUrl: "/poster/moive/Horror/the-exorcist.jpg",
+    imageUrl: "/poster/movie/Horror/the-exorcist.jpg",
     title: "The Exorcist",
     rating: "18+",
     episodes: "122 min",
@@ -544,7 +544,7 @@ const db: Media[] = [
   },
   {
     id: 46,
-    imageUrl: "/poster/moive/Horror/the-shining.jpg",
+    imageUrl: "/poster/movie/Horror/the-shining.jpg",
     title: "The Shining",
     rating: "18+",
     episodes: "146 min",
@@ -556,7 +556,7 @@ const db: Media[] = [
   },
   {
     id: 47,
-    imageUrl: "/poster/moive/Horror/the-thing.jpg",
+    imageUrl: "/poster/movie/Horror/the-thing.jpg",
     title: "The Thing",
     rating: "18+",
     episodes: "109 min",
@@ -570,7 +570,7 @@ const db: Media[] = [
   // === Sci-fi (id 48-59) ===
   {
     id: 48,
-    imageUrl: "/poster/moive/Sci-Fi/a-space-odyssey.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/a-space-odyssey.jpg",
     title: "2001: A Space Odyssey",
     rating: "7+",
     episodes: "149 min",
@@ -582,7 +582,7 @@ const db: Media[] = [
   },
   {
     id: 49,
-    imageUrl: "/poster/moive/Sci-Fi/alien 2.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/alien 2.jpg",
     title: "Aliens",
     rating: "18+",
     episodes: "137 min",
@@ -594,7 +594,7 @@ const db: Media[] = [
   },
   {
     id: 50,
-    imageUrl: "/poster/moive/Sci-Fi/alien.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/alien.jpg",
     title: "Alien",
     rating: "18+",
     episodes: "117 min",
@@ -606,7 +606,7 @@ const db: Media[] = [
   },
   {
     id: 51,
-    imageUrl: "/poster/moive/Sci-Fi/arrival.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/arrival.jpg",
     title: "Arrival",
     rating: "13+",
     episodes: "116 min",
@@ -618,7 +618,7 @@ const db: Media[] = [
   },
   {
     id: 52,
-    imageUrl: "/poster/moive/Sci-Fi/back-to-the-future.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/back-to-the-future.jpg",
     title: "Back to the Future",
     rating: "7+",
     episodes: "116 min",
@@ -630,7 +630,7 @@ const db: Media[] = [
   },
   {
     id: 53,
-    imageUrl: "/poster/moive/Sci-Fi/blade-runner.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/blade-runner.jpg",
     title: "Blade Runner",
     rating: "18+",
     episodes: "117 min",
@@ -642,7 +642,7 @@ const db: Media[] = [
   },
   {
     id: 54,
-    imageUrl: "/poster/moive/Sci-Fi/gattaca.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/gattaca.jpg",
     title: "Gattaca",
     rating: "13+",
     episodes: "106 min",
@@ -654,7 +654,7 @@ const db: Media[] = [
   },
   {
     id: 55,
-    imageUrl: "/poster/moive/Sci-Fi/inception.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/inception.jpg",
     title: "Inception",
     rating: "13+",
     episodes: "148 min",
@@ -666,7 +666,7 @@ const db: Media[] = [
   },
   {
     id: 56,
-    imageUrl: "/poster/moive/Sci-Fi/interstellar.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/interstellar.jpg",
     title: "Interstellar",
     rating: "13+",
     episodes: "169 min",
@@ -678,7 +678,7 @@ const db: Media[] = [
   },
   {
     id: 57,
-    imageUrl: "/poster/moive/Sci-Fi/jurassic-park.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/jurassic-park.jpg",
     title: "Jurassic Park",
     rating: "13+",
     episodes: "127 min",
@@ -690,7 +690,7 @@ const db: Media[] = [
   },
   {
     id: 58,
-    imageUrl: "/poster/moive/Sci-Fi/lola-rennt.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/lola-rennt.jpg",
     title: "Run Lola Run",
     rating: "18+",
     episodes: "81 min",
@@ -702,7 +702,7 @@ const db: Media[] = [
   },
   {
     id: 59,
-    imageUrl: "/poster/moive/Sci-Fi/the-empire-strikes-back.jpg",
+    imageUrl: "/poster/movie/Sci-Fi/the-empire-strikes-back.jpg",
     title: "The Empire Strikes Back",
     rating: "7+",
     episodes: "124 min",
